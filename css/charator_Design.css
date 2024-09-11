@@ -1,0 +1,15 @@
+@charset "utf-8";
+.charator{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.charator > .charator-body{
+    width: 100%;
+    padding: 40px;
+}
+.charator > .charator-body >div> img{
+    width: 100%;
+}
+

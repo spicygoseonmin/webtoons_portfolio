@@ -66,6 +66,31 @@
 }
 
 
+
+.working-ex > .working-ex-img-wrap{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.working-ex > .working-ex-img-wrap > .working-ex-inner{
+    width: calc(100% / 2 - 50px);
+    height: 80vh;
+    overflow: scroll;
+    border: 1px solid #3333334f;
+    box-shadow: 0 0 3px 2px #0000002f;
+
+}
+.working-ex > .working-ex-img-wrap > .working-ex-inner > img{
+    width: 100%;
+}
+
+
+
+
+
+
 .working-ex{
     display: none;
 }

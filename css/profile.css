@@ -40,15 +40,16 @@
 }
 
 /* 학력 */
-.scholarship {
+.skill-section {
   width: 100%;
   background-color: #fff;
   padding-top: 10px;
 }
-.scholarship > .inner {
-  display: block;
+.skill-section > .inner {
+  display: flex;
+  justify-content: space-around;
 }
-.scholarship >.inner > h1 {
+.skill-section >.inner > .scholarship > h1 {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 900;
   font-size: 30px;

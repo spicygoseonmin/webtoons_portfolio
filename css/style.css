@@ -13,14 +13,20 @@ a {
   text-decoration: none;
 }
 .inner {
-    display: flex;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1850px;
     margin: 0 auto;
+    padding: 20px;
     /* background-color: aqua; */
 }
+.item > .inner{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
 @media screen and (max-width: 1640px){
-  .inner{
-    padding: 0 20px;
+  .main-menu {
+    padding-left: 40px;
   }
 }

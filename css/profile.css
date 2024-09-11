@@ -1,0 +1,55 @@
+@charset "utf-8";
+.profile-wrap {
+  background-color: black;
+}
+.profile-wrap > .inner {
+  align-items: center;
+}
+.profile {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  background-color: aliceblue;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile > a > img {
+  width: 100%;
+  opacity: 0.8;
+}
+/* 기본 정보 */
+.introduce {
+  color: #fff;
+  padding-left: 50px;
+}
+.introduce > h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 10px 0;
+}
+.introduce {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.introduce .sub {
+  margin-top: 10px;
+  font-weight: 700;
+}
+.introduce .sub > div {
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+/* 학력 */
+.scholarship {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+}
+.scholarship > .inner {
+  display: block;
+}
+.scholarship >.inner > h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}

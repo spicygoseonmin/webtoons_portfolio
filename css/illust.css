@@ -1,0 +1,65 @@
+@charset "utf-8";
+.cartoon-cover-txt{
+    padding-bottom: 20px
+}
+.cartoon-cover-txt > h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.cartoon-cover-txt > h1 > span {
+  font-size: 20px;
+  font-weight: 350;
+}
+.cartoon-cover-txt > p{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+}
+.cartoon-cover-txt > p::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.cartoon-cover-txt > p>strong{
+    font-weight: 900;
+}
+
+
+
+.cartoon-cover {
+  width: 100%;
+  padding: 30px;
+  display: none;
+}
+.cartoon-cover > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cartoon-cover > ul > li {
+  width: calc(100% / 5 - 10px);
+}
+.cartoon-cover > ul > li > img {
+  width: 100%;
+}
+
+
+.individual-illust{
+    width: 100%;
+    padding: 30px;
+    display: none;
+}
+
+
+.subcontract-illust{
+    width: 100%;
+    padding: 30px;
+    display: none;
+}

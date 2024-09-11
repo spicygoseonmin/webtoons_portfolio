@@ -1,0 +1,74 @@
+@charset "utf-8";
+.item-txt{
+    padding-bottom: 20px
+}
+.item-txt > h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.item-txt > h1 > span {
+  font-size: 20px;
+  font-weight: 350;
+}
+.item-txt > p{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+}
+.item-txt > p::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.item-txt > p>strong{
+    font-weight: 900;
+}
+
+
+
+
+
+.working-skill{
+    display: none;
+}
+.working-skill > ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.working-skill > ul >li {
+    width: calc(100% /4 - 10px);
+}
+.working-skill > ul >li > img{
+    width: 100%;
+}
+.working-ep{
+    width: 100%;
+    display: none;
+}
+.working-ep > ul{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.working-ep > ul> li{
+    width: 100%;
+}
+.working-ep > ul> li > img{
+    width: 100%;
+}
+
+
+.working-ex{
+    display: none;
+}
+.working-ep{
+    display: none;
+}

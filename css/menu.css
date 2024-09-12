@@ -38,11 +38,16 @@
   padding: 5px 0;
   font-family: "Noto Sans KR", sans-serif;
 }
-.a-sub-menu > li:nth-child(2){
+.a-sub-menu > li:nth-child(2) {
   border-left: 1px solid #cccccc2a;
   border-right: 1px solid #cccccc2a;
 }
 .a-sub-menu > li:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.13);
+}
+
+.menu-active {
+  background-color: rgba(255, 255, 255, 0.13);
+  color: #ffffff;
 }

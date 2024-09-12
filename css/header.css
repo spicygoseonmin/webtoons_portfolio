@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  padding: 20px;
 }
 .header-title {
   font-family: "Oleo Script", system-ui;

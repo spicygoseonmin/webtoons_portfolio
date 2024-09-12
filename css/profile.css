@@ -4,6 +4,8 @@
 }
 .profile-wrap > .inner {
   align-items: center;
+  display: flex;
+  padding: 20px 40px;
 }
 .profile {
   margin-top: 35px;
@@ -21,22 +23,33 @@
 /* 기본 정보 */
 .introduce {
   color: #fff;
-  padding-left: 50px;
-}
-.introduce > h3 {
   font-family: "Noto Sans KR", sans-serif;
-  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 10px;
 }
-.introduce {
+.besic-info > h3 {
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
 }
-.introduce .sub {
-  margin-top: 10px;
-  font-weight: 700;
-}
-.introduce .sub > div {
+.besic-info > div {
+  padding-left: 8px;
   font-weight: 300;
-  margin-left: 8px;
+}
+
+.sub {
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 10px;
+}
+.sub > h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.sub > div {
+  font-weight: 300;
+  padding-left: 8px;
 }
 
 /* 학력 */
@@ -49,8 +62,36 @@
   display: flex;
   justify-content: space-around;
 }
-.skill-section >.inner > .scholarship > h1 {
+.skill-section > .inner > .scholarship > h1 {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 900;
   font-size: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-wrap > .inner {
+    flex-direction: column;
+  }
+  .introduce{
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+  }
+  .besic-info > h3,
+  .sub > h3{
+    font-size: 16px;
+  }
+  .besic-info > div,
+  .sub > div{
+    font-size: 14px;
+  }
+  .sub{
+    margin: 0;
+  }
+  .skill-section > .inner{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+  }
 }

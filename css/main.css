@@ -22,6 +22,9 @@
   position: relative;
   box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.26);
 }
+.wrap > .inner{
+  padding: 0;
+}
 .profile > a {
   width: 100%;
   height: 100%;
@@ -96,4 +99,15 @@
 .ov {
   width: 100%;
   background-color: aliceblue;
+}
+@media screen and (max-width: 900px) {
+  .main-menu > .menu-list > li {
+    padding: 10px 0;
+  }
+  .main-menu > .menu-list > li > a {
+    font-size: 20px;
+  }
+  .main-menu > .menu-list > li > a > p {
+    font-size: 12px;
+  }
 }

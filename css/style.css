@@ -13,18 +13,36 @@ a {
   text-decoration: none;
 }
 .inner {
-    width: 100%;
-    max-width: 1850px;
-    margin: 0 auto;
-    /* background-color: aqua; */
+  width: 100%;
+  max-width: 1850px;
+  margin: 0 auto;
+  /* background-color: aqua; */
 }
-.item > .inner{
+.item > .inner {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-
 }
-@media screen and (max-width: 1640px){
+.closeBtn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  border: 2px solid #ffffffa9;
+  background-color: #00000000;
+  color: #ffffffa9;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeBtn:hover{
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1640px) {
   .main-menu {
     padding-left: 40px;
   }

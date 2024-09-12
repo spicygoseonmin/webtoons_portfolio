@@ -1,6 +1,7 @@
 @charset "utf-8";
 .a-menu-wrap {
   background-color: black;
+  position: relative;
 }
 .a-menu-wrap > .inner {
   display: block;

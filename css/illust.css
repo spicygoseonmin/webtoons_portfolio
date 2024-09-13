@@ -60,11 +60,35 @@
     width: 100%;
     display: none;
 }
+.individual-illust > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.individual-illust > ul > li {
+  width: calc(100% / 5 - 10px);
+}
+.individual-illust > ul > li > img {
+  width: 100%;
+}
 
 
 .subcontract-illust{
     width: 100%;
     display: none;
+}
+.subcontract-illust > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.subcontract-illust > ul > li {
+  width: calc(100% / 5 - 10px);
+}
+.subcontract-illust > ul > li > img {
+  width: 100%;
 }
 
 @media screen and (max-width: 900px) {

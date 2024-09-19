@@ -7,19 +7,7 @@
 }
 .charator > .charator-body{
     width: 100%;
-    padding: 40px;
 }
 .charator > .charator-body >div> img{
     width: 100%;
 }
-@media screen and (max-width: 900px) {
-    .item-txt > h1 {
-      font-size: 30px;
-      padding: 0 20px;
-      padding-top: 10px;
-    }
-    .item-txt > p {
-      padding-left: 20px;
-      font-size: 14px;
-    }
-  }

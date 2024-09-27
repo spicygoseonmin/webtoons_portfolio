@@ -1,6 +1,9 @@
 @charset "utf-8";
+.header {
+  position: fixed;
+}
 .wrap {
-  background-color: black;
+  /* background-color: black; */
   height: 100%;
 }
 .main-menu {
@@ -27,6 +30,7 @@
 }
 .wrap > .inner {
   padding: 0;
+  max-width: none;
 }
 .profile > a {
   width: 100%;
@@ -100,7 +104,8 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 .ov {
-  width: 100%;
+  width: calc(100% - 300px);
+  margin-left: 300px;
 }
 .ov > .intro_scrolled {
   width: 100%;
@@ -110,6 +115,11 @@
   height: 1000px;
   background: url("../images/temporaily-img/lighthouse-8578318_1920.jpg") no-repeat center;
   background-size: cover;
+}
+.greeting > h1{
+  padding-top: 100px ;
+  padding-right: 40px;
+  font-size: 30px;
 }
 @media screen and (max-width: 900px) {
   body {

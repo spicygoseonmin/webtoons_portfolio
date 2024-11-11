@@ -52,13 +52,7 @@
   color: #ffffff;
 }
 
-
-
-
-
-
-
-.item > .inner{
+.item > .inner {
   padding: 20px;
 }
 .item-txt {
@@ -92,23 +86,13 @@
   font-weight: 900;
 }
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 900px){
-  .item-txt > h1{
+@media screen and (max-width: 900px) {
+  .item-txt > h1 {
     font-size: 25px !important;
     padding: 0 20px;
     padding-top: 10px;
   }
-  .item-txt > h1 > span{
+  .item-txt > h1 > span {
     font-size: 13px;
   }
   .item-txt > p {
@@ -116,23 +100,23 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 420px){
-.a-menu-title{
-  font-size: 30px;
+@media screen and (max-width: 420px) {
+  .a-menu-title {
+    font-size: 30px;
+  }
+  .a-sub-menu > li {
+    font-size: 13px;
+    padding: 5px 0 6px;
+  }
+  .item-txt > h1 {
+    padding: 0;
+  }
+  .item-txt > p {
+    padding: 0;
+  }
 }
-.a-sub-menu > li{
-  font-size: 13px;
-  padding: 5px 0 6px;
-}
-.item-txt > h1{
-  padding: 0;
-}
-.item-txt > p{
-  padding: 0;
-}
-}
-@media screen and (max-width: 320px){
-  .item-txt > h1{
+@media screen and (max-width: 320px) {
+  .item-txt > h1 {
     font-size: 20px !important;
     padding: 0;
     padding-top: 10px;

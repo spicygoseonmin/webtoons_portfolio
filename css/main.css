@@ -135,18 +135,21 @@
     font-size: 15px;
   }
 }
-@media screen and (max-width: 320px) {
-  .main-menu {
-    width: 250px;
+@media screen and (max-width: 420px){
+  .main-menu{
+    width: 100%;
+    max-width: none;
     padding-left: 30px;
   }
-  .main-menu > .menu-list > li {
-    padding: 5px 0;
-  }
+}
+@media screen and (max-width: 400px){
   .main-menu > .menu-list > li > a {
     font-size: 18px;
   }
   .main-menu > .menu-list > li > a > p {
     font-size: 12px;
+  }
+  .main-menu > .menu-list > li {
+    padding: 5px 0;
   }
 }

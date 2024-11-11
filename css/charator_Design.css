@@ -1,13 +1,14 @@
 @charset "utf-8";
-.charator{
+.charator,
+.charator-cloth
+.inger{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     display: block;
 }
-.charator > .charator-body{
-    width: 100%;
-}
-.charator > .charator-body >div> img{
+.charator>ul >li > div> img,
+.charator-cloth >ul >li > div> img,
+.inger >ul >li > div> img{
     width: 100%;
 }

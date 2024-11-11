@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
     });
   });
   const charator_body_btn = this.document.querySelector("#charator-body-btn");
-  const charator_body = this.document.querySelector(".charator-body");
+  const charator_body = this.document.querySelector(".charator");
   charator_body_btn.addEventListener("click", function () {
     charator_body.style.display = "block";
     charator_cloth.style.display = "none";

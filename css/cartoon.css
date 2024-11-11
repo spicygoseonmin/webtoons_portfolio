@@ -68,7 +68,7 @@
   height: 100vw;
   max-height: 800px;
   border: 1px solid #757575;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .working-ex > .working-ex-img-wrap > .wrapping > .action > .working-ex-inner > img,
 .working-ex > .working-ex-img-wrap > .wrapping > .emotion > .working-ex-inner > img,

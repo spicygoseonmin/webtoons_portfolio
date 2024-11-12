@@ -39,9 +39,12 @@ a {
   align-items: center;
   justify-content: center;
 }
-.closeBtn:hover{
+.closeBtn:hover {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
+}
+img {
+  -webkit-touch-callout: none;
 }
 @media screen and (max-width: 1640px) {
   .main-menu {

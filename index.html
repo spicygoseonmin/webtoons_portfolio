@@ -23,7 +23,10 @@
           <div class="profile">
             <a href="profile.html">
               <div class="profile-img-hover">click</div>
-              <img src="images/temporaily-img/profile-img.png" alt="임시 이미지" />
+              <img
+                src="images/temporaily-img/profile-img.png"
+                alt="임시 이미지"
+              />
             </a>
           </div>
           <ul class="menu-list">
@@ -63,13 +66,21 @@
           <div class="intro_scrolled">
             <div class="greeting">
               <h1>반갑습니다</h1>
-              
             </div>
-            <div class="about_me">
-            </div>
+            <div class="about_me"></div>
           </div>
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      document.addEventListener(
+        "contextmenu",
+        function (e) {
+          "IMG" === e.target.nodeName && e.preventDefault();
+        },
+        !1,
+      ); /*]]>*/
+    </script>
   </body>
 </html>

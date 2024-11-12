@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/charator_Design.css" />
     <script src="js/charator_Design.js"></script>
+
+    <!-- 스와이퍼 link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- 스와이퍼 js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -47,35 +55,163 @@
               캐릭터 디자인입니다.
             </p>
           </div>
-          <ul>
-            <li>
-              <div>
-                <img
-                  src="images/charactor_design/body/charactor_body_design-candy.png"
-                  alt="캐릭터 전체 디자인_hundred_candy"
-                  oncontextmenu="return false"
-                />
+          <!-- 캐릭터 초안 이미지 -->
+          <div class="wrapping">
+            <h2>캐릭터 초안</h2>
+            <p>매 화의 진행과정 및 작업 스타일을 보여주는 리스트입니다</p>
+            <div class="swiper draft_charactor_swiper">
+              <div class="swiper-wrapper">
+                <!-- 캔디 초안 -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_candy_1.jpg"
+                    alt="캔디_초안_1"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_candy_2.jpg"
+                    alt="캔디_초안_2"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_candy_3.jpg"
+                    alt="캔디_초안_3"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_candy_4.jpg"
+                    alt="캔디_초안_4"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <!-- 아키코 초안 -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_akiko_1.jpg"
+                    alt="아키코_초안1"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_akiko_2.jpg"
+                    alt="아키코_초안_2"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_akiko-monday_3.jpg"
+                    alt="아키코_월요일_초안_3"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <!-- 울피 초안 -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_wolfy_fox.jpg"
+                    alt="울피_초안"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <!-- 기타 등등 -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_etx.jpg"
+                    alt="기타_초안"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <!-- 수진 -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/draft_img_sujin.jpg"
+                    alt="수진 초안"
+                    oncontextmenu="return false"
+                  />
+                </div>
               </div>
-            </li>
-            <li>
-              <div>
-                <img
-                  src="images/charactor_design/body/charactor_body_design-sujin.png"
-                  alt="캐릭터 전체 디자인_hundred_sujin"
-                  oncontextmenu="return false"
-                />
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <!-- 캐릭터 전신 이미지 -->
+          <div class="wrapping">
+            <h2>캐릭터 전신</h2>
+            <p>매 화의 진행과정 및 작업 스타일을 보여주는 리스트입니다</p>
+            <div class="swiper charactor_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_body_design-candy.png"
+                    alt="캐릭터 전체 디자인_hundred_candy"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_body_design-sujin.png"
+                    alt="캐릭터 전체 디자인_hundred_sujin"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_body_design-akiko.png"
+                    alt="캐릭터 전체 디자인_hundred_sujin"
+                    oncontextmenu="return false"
+                  />
+                </div>
               </div>
-            </li>
-            <li>
-              <div>
-                <img
-                  src="images/charactor_design/body/charactor_body_design-akiko.jpg"
-                  alt="캐릭터 전체 디자인_hundred_sujin"
-                  oncontextmenu="return false"
-                />
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <!-- 서브 캐릭터 / 단역 캐릭터 이미지 -->
+          <div class="wrapping">
+            <h2>서브 / 단역 캐릭터 디자인</h2>
+            <p>매 화의 진행과정 및 작업 스타일을 보여주는 리스트입니다</p>
+            <div class="swiper sub_charactor_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_design_cerberus.png"
+                    alt="캐릭터 전체 디자인_hundred_cerberus"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_design_yuri.png"
+                    alt="캐릭터 전체 디자인_hundred_yuri"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_design_wolfy_fox.png"
+                    alt="캐릭터 전체 디자인_hundred_wolfy_fox"
+                    oncontextmenu="return false"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/charactor_design/body/charactor_design_sinrang.png"
+                    alt="캐릭터 전체 디자인_hundred_sinrang"
+                    oncontextmenu="return false"
+                  />
+                </div>
               </div>
-            </li>
-          </ul>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
         </div>
         <!-- 의상 디자인 -->
         <div class="charator-cloth">

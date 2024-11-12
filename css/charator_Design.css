@@ -1,14 +1,53 @@
 @charset "utf-8";
+.charator {
+  display: block;
+}
+.charator-cloth,
+.inger {
+  display: none;
+}
 .charator,
 .charator-cloth,
-.inger{
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: block;
+.inger {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.charator>ul >li > div> img,
-.charator-cloth >ul >li > div> img,
-.inger >ul >li > div> img{
-    width: 100%;
+.charator > ul > li > div > img,
+.charator-cloth > ul > li > div > img,
+.inger > ul > li > div > img {
+  width: 100%;
+}
+.charator > .wrapping {
+  width: 100%;
+  margin: 120px auto;
+}
+.charator > .wrapping > p {
+  margin-bottom: 30px;
+}
+.charator > .wrapping > .draft_charactor_swiper,
+.charator > .wrapping > .charactor_swiper,
+.charator > .wrapping > .sub_charactor_swiper {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.charator
+  > .wrapping
+  > .draft_charactor_swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > img,
+.charator
+  > .wrapping
+  > .charactor_swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > img,
+.charator
+  > .wrapping
+  > .sub_charactor_swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > img {
+  width: 100%;
 }

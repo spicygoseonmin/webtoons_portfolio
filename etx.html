@@ -11,8 +11,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/etx.css" />
+    <script src="js/etx.js"></script>
+
+    <!-- 스와이퍼 link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- 스와이퍼 js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
-  <body oncontextmenu="return false" ondragstart="return false" onselect="return false" onkeydown="return false">
+  <body>
     <header class="header">
       <div class="inner">
         <a href="index.html"><h1 class="header-title">Portflio</h1></a>
@@ -30,8 +39,8 @@
         </h1>
         <ul class="a-sub-menu">
           <li id="photoshop-btn" class="menu-active">포토샵</li>
-          <li id="charator-cloth-btn">조소</li>
-          <li id="inger-btn">업무 수행능력</li>
+          <li id="web-design-btn">웹디자인</li>
+          <li id="working-btn">업무 수행능력</li>
         </ul>
       </div>
     </div>
@@ -44,20 +53,184 @@
             <p>매 화의 진행과정 및 작업 스타일을 보여주는 리스트입니다</p>
           </div>
           <div class="working-ex-img-wrap">
+            <!-- 로고 -->
+            <div class="wrapping">
+              <h2>로고 / 앰블럼 작업</h2>
+              <p>포토샵을 활용하여 만든 로고 입니다.</p>
+              <div class="swiper_btn">
+                <div class="swiper-button-prev logo_prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="swiper-button-next logo_next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="logo_wrap">
+                <div class="swiper logo_swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img_wrap">
+                        <div class="m_d_click_cover"></div>
+                        <img src="images/etx/logo/simchung.png" alt="로고_1" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img_wrap">
+                        <div class="m_d_click_cover"></div>
+                        <img src="images/etx/logo/miracle.png" alt="로고_2" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper logo_ex_swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="logo_info">
+                        <div class="show_ppt">
+                          <a
+                            target="_blank"
+                            href="https://www.canva.com/design/DAGLXXu2BOI/kKACzeKxhfqsz2naTGhjGg/view?utm_content=DAGLXXu2BOI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                          >
+                            자세히 보기
+                          </a>
+                        </div>
+                        <div class="img_wrap">
+                          <img
+                            src="images/etx/logo/simchung_ex.png"
+                            alt="심청_로고_예제"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="logo_info">
+                        <div class="show_ppt">
+                          <a
+                            target="_blank"
+                            href="https://www.canva.com/design/DAGJA1gCZXI/dpJi-paAaDlWV4U4wFsjQw/view?utm_content=DAGJA1gCZXI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                          >
+                            자세히 보기
+                          </a>
+                        </div>
+                        <div class="img_wrap">
+                          <img
+                            src="images/etx/logo/miracle_ex.png"
+                            alt="미라클_로고_예제"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 웹 / 앱 캐릭터 -->
+            <div class="wrapping">
+              <h2>웹앱 캐릭터 디자인</h2>
+              <p>일러스트레이트 / 포토샵을 활용하여 만든 웹앱 캐릭터 입니다.</p>
+              <div class="web_charactor">
+                <div class="img_wrap">
+                  <div class="m_d_click_cover"></div>
+                  <img
+                    src="images/etx/simchung_charactor.png"
+                    alt="비주얼 이미지_1"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- 비주얼 이미지 -->
+            <div class="wrapping">
+              <h2>비주얼 이미지 작업</h2>
+              <p>포토샵을 활용하여 만든 비주얼 이미지 입니다.</p>
+              <div class="visual">
+                <div class="img_wrap">
+                  <div class="m_d_click_cover"></div>
+                  <img
+                    src="images/etx/visual/visual_1.png"
+                    alt="비주얼 이미지_1"
+                  />
+                </div>
+                <div class="img_wrap">
+                  <div class="m_d_click_cover"></div>
+                  <img
+                    src="images/etx/visual/visual_2.png"
+                    alt="비주얼 이미지_2"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- 배너 작업 -->
             <div class="wrapping">
               <h2>배너 작업</h2>
               <p>포토샵을 활용하여 만든 배너 입니다.</p>
               <div class="banner">
                 <ul>
-                  <li><img src="" alt="" /></li>
+                  <!-- 카카오 / 금융 배너 -->
+                  <li>
+                    <div class="img_wrap">
+                      <div class="m_d_click_cover"></div>
+                      <img
+                        src="images/etx/banner/kakao-banner.png"
+                        alt="카카오 배너"
+                      />
+                    </div>
+                  </li>
                 </ul>
+                <div class="swiper_btn">
+                  <div class="swiper-button-prev artroke_prev">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </div>
+                  <div class="swiper-button-next artroke_next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+                <div class="swiper artroke_banner_swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img_wrap">
+                        <div class="m_d_click_cover"></div>
+                        <img
+                          src="images/etx/banner/artroke_banner_1.png"
+                          alt="아트로크_배너_1"
+                          oncontextmenu="return false"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img_wrap">
+                        <div class="m_d_click_cover"></div>
+                        <img
+                          src="images/etx/banner/artroke_banner_2.png"
+                          alt="아트로크_배너_2"
+                          oncontextmenu="return false"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img_wrap">
+                        <div class="m_d_click_cover"></div>
+                        <img
+                          src="images/etx/banner/artroke_banner_3.png"
+                          alt="아트로크_배너_3"
+                          oncontextmenu="return false"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- 조소 -->
-        <div class="shape"></div>
+        <!-- 웹디자인 -->
+        <div class="web_design">
+          <div class="item-txt">
+            <h1 class="m-tit-sub-ttttt">웹디자인</h1>
+            <p>반응형 웹디자인 작업물입니다.</p>
+          </div>
+        </div>
         <!-- 업무 수행능력 -->
+        <div class="working"></div>
       </div>
     </div>
     <script type="text/javascript">

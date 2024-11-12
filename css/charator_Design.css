@@ -1,30 +1,5 @@
 @charset "utf-8";
-/* 스와이프 버튼 */
-.swiper_btn {
-  position: relative;
-  display: flex;
-  height: 60px;
-  gap: 30px;
-}
 
-.swiper_btn > .swiper-button-next,
-.swiper_btn > .swiper-button-prev {
-  position: relative;
-  background-color: black;
-  height: 40px;
-  width: 40px;
-  border-radius: 100px;
-  color: #fff;
-}
-.swiper_btn > .swiper-button-next:hover,
-.swiper_btn > .swiper-button-prev:hover {
-  background-color: rgb(41, 41, 41);
-  color: chartreuse;
-}
-.swiper_btn > .swiper-button-next::after,
-.swiper_btn > .swiper-button-prev::after {
-  display: none;
-}
 .charator {
   display: block;
 }
@@ -44,10 +19,10 @@
 .inger > ul > li > div > img {
   width: 100%;
 }
-.charator > .wrapping {
+/* .charator > .wrapping {
   width: 100%;
   margin: 120px auto;
-}
+} */
 /* .charator > .wrapping > p {
   margin-bottom: 30px;
 } */
@@ -62,21 +37,28 @@
   > .draft_charactor_swiper
   > .swiper-wrapper
   > .swiper-slide
-  >.img_wrap
+  > .img_wrap
   > img,
 .charator
   > .wrapping
   > .charactor_swiper
   > .swiper-wrapper
   > .swiper-slide
-  >.img_wrap
+  > .img_wrap
+  > img,
+.charator
+  > .wrapping
+  > .head_charactor_swiper
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img_wrap
   > img,
 .charator
   > .wrapping
   > .sub_charactor_swiper
   > .swiper-wrapper
   > .swiper-slide
-  >.img_wrap
+  > .img_wrap
   > img {
   width: 100%;
 }

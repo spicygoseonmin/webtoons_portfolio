@@ -39,6 +39,9 @@ a {
   align-items: center;
   justify-content: center;
 }
+.wrapping{
+  margin: 120px auto;
+}
 .closeBtn:hover {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
@@ -54,12 +57,42 @@ img {
 .img_wrap {
   position: relative;
 }
+.img_wrap > img {
+  width: 100%;
+}
 .m_d_click_cover {
   position: absolute;
   width: 100%;
   height: 100%;
   /* background-color: aqua; */
 }
+
+/* 스와이프 버튼 */
+.swiper_btn {
+  position: relative;
+  display: flex;
+  height: 60px;
+  gap: 30px;
+}
+.swiper_btn > .swiper-button-next,
+.swiper_btn > .swiper-button-prev {
+  position: relative;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  color: #fff;
+}
+.swiper_btn > .swiper-button-next:hover,
+.swiper_btn > .swiper-button-prev:hover {
+  background-color: rgb(41, 41, 41);
+  color: chartreuse;
+}
+.swiper_btn > .swiper-button-next::after,
+.swiper_btn > .swiper-button-prev::after {
+  display: none;
+}
+
 @media screen and (max-width: 1640px) {
   .main-menu {
     padding-left: 40px;

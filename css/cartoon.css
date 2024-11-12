@@ -30,6 +30,8 @@
 }
 .working-ep > ul > li .img_wrap> img {
   width: 100%;
+  display: block;
+  position: relative;
 }
 
 .wrapping p {

@@ -1,0 +1,76 @@
+@charset "utf-8";
+.photoshop,
+.web_design,
+.working {
+  display: none;
+}
+.photoshop {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+.banner > ul > li > .img_wrap > img {
+  width: 100%;
+}
+.swiper-slide > .img_wrap > img {
+  width: 100%;
+}
+.logo_wrap {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo_wrap > .logo_swiper {
+  width: 100%;
+  max-width: 200px;
+}
+.logo_info {
+  position: relative;
+}
+.logo_info > .img_wrap > img {
+  position: relative;
+  display: block;
+}
+.logo_info > .show_ppt {
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-in-out;
+}
+.logo_info:hover > .show_ppt{
+  background-color: rgba(0, 0, 0, 0.397);
+}
+.logo_info > .show_ppt > a {
+  position: relative;
+  display: block;
+  opacity: 0;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+.logo_info:hover > .show_ppt > a {
+  position: relative;
+  display: block;
+  opacity: 1;
+}
+.web_charactor,
+.visual,
+.banner{
+  margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+  .logo_wrap {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

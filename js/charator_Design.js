@@ -48,6 +48,15 @@ window.addEventListener("load", function () {
     },
     loop: true,
   });
+  // 캐릭터 두상, 특징============================================================================
+  const head_charactor_swiper = new Swiper(".head_charactor_swiper", {
+    navigation: {
+      nextEl: ".head_next",
+      prevEl: ".head_prev",
+    },
+    slidesPerView: 5,
+    loop: true,
+  });
   // 캐릭터 디자인 스와이퍼 구역-=================================================================
   const sub_charactor_swiper = new Swiper(".sub_charactor_swiper", {
     navigation: {

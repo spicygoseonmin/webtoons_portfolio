@@ -21,7 +21,12 @@
     <!-- 스와이퍼 js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
-  <body>
+  <body
+    oncontextmenu="return false"
+    ondragstart="return false"
+    onselect="return false"
+    onkeydown="return false"
+  >
     <header class="header">
       <div class="inner">
         <a href="index.html"><h1 class="header-title">Portflio</h1></a>
@@ -39,8 +44,8 @@
         </h1>
         <ul class="a-sub-menu">
           <li id="photoshop-btn" class="menu-active">포토샵</li>
-          <li id="web-design-btn">웹디자인</li>
-          <li id="working-btn">업무 수행능력</li>
+          <!-- <li id="web-design-btn">웹디자인</li>
+          <li id="working-btn">업무 수행능력</li> -->
         </ul>
       </div>
     </div>
@@ -222,15 +227,6 @@
             </div>
           </div>
         </div>
-        <!-- 웹디자인 -->
-        <div class="web_design">
-          <div class="item-txt">
-            <h1 class="m-tit-sub-ttttt">웹디자인</h1>
-            <p>반응형 웹디자인 작업물입니다.</p>
-          </div>
-        </div>
-        <!-- 업무 수행능력 -->
-        <div class="working"></div>
       </div>
     </div>
     <script type="text/javascript">

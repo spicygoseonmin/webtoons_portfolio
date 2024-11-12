@@ -34,8 +34,8 @@ window.addEventListener("load", function () {
   // 캐릭터 초안 스와이퍼 구역-=================================================================
   const draft_charactor_swiper = new Swiper(".draft_charactor_swiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".draft_next",
+      prevEl: ".draft_prev",
     },
     slidesPerView: 3,
     loop: true,
@@ -43,16 +43,16 @@ window.addEventListener("load", function () {
   // 캐릭터 디자인 스와이퍼 구역-=================================================================
   const charactor_swiper = new Swiper(".charactor_swiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".body_next",
+      prevEl: ".body_prev",
     },
     loop: true,
   });
   // 캐릭터 디자인 스와이퍼 구역-=================================================================
   const sub_charactor_swiper = new Swiper(".sub_charactor_swiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".sub_next",
+      prevEl: ".sub_prev",
     },
     loop: true,
   });

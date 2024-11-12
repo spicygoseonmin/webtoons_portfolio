@@ -1,4 +1,30 @@
 @charset "utf-8";
+/* 스와이프 버튼 */
+.swiper_btn {
+  position: relative;
+  display: flex;
+  height: 60px;
+  gap: 30px;
+}
+
+.swiper_btn > .swiper-button-next,
+.swiper_btn > .swiper-button-prev {
+  position: relative;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  color: #fff;
+}
+.swiper_btn > .swiper-button-next:hover,
+.swiper_btn > .swiper-button-prev:hover {
+  background-color: rgb(41, 41, 41);
+  color: chartreuse;
+}
+.swiper_btn > .swiper-button-next::after,
+.swiper_btn > .swiper-button-prev::after {
+  display: none;
+}
 .charator {
   display: block;
 }
@@ -22,9 +48,9 @@
   width: 100%;
   margin: 120px auto;
 }
-.charator > .wrapping > p {
+/* .charator > .wrapping > p {
   margin-bottom: 30px;
-}
+} */
 .charator > .wrapping > .draft_charactor_swiper,
 .charator > .wrapping > .charactor_swiper,
 .charator > .wrapping > .sub_charactor_swiper {

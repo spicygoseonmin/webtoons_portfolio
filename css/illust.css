@@ -14,14 +14,13 @@
 .cartoon-cover > ul > li {
   width: calc(100% / 5 - 10px);
 }
-.cartoon-cover > ul > li > img {
+.cartoon-cover > ul > li > .img_wrap > img {
   width: 100%;
 }
 
-
-.individual-illust{
-    width: 100%;
-    display: none;
+.individual-illust {
+  width: 100%;
+  display: none;
 }
 .individual-illust > ul {
   width: 100%;
@@ -32,14 +31,13 @@
 .individual-illust > ul > li {
   width: calc(100% / 5 - 10px);
 }
-.individual-illust > ul > li > img {
+.individual-illust > ul > li > .img_wrap > img {
   width: 100%;
 }
 
-
-.subcontract-illust{
-    width: 100%;
-    display: none;
+.subcontract-illust {
+  width: 100%;
+  display: none;
 }
 .subcontract-illust > ul {
   width: 100%;
@@ -50,7 +48,6 @@
 .subcontract-illust > ul > li {
   width: calc(100% / 5 - 10px);
 }
-.subcontract-illust > ul > li > img {
+.subcontract-illust > ul > li > .img_wrap > img {
   width: 100%;
 }
-

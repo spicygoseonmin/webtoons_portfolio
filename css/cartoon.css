@@ -11,7 +11,7 @@
 .working-skill > ul > li {
   width: calc(100% / 4 - 10px);
 }
-.working-skill > ul > li > img {
+.working-skill > ul > li .img_wrap> img {
   width: 100%;
 }
 .working-ep {
@@ -28,7 +28,7 @@
 .working-ep > ul > li {
   width: 100%;
 }
-.working-ep > ul > li > img {
+.working-ep > ul > li .img_wrap> img {
   width: 100%;
 }
 
@@ -77,18 +77,21 @@
   > .wrapping
   > .action
   > .working-ex-inner
+  >.img_wrap
   > img,
 .working-ex
   > .working-ex-img-wrap
   > .wrapping
   > .emotion
   > .working-ex-inner
+  >.img_wrap
   > img,
 .working-ex
   > .working-ex-img-wrap
   > .wrapping
   > .spare
   > .working-ex-inner
+  >.img_wrap
   > img {
   width: 100%;
 }

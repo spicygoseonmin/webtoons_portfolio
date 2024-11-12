@@ -80,12 +80,3 @@
   > img {
   width: 100%;
 }
-.img_wrap{
-position: relative;
-}
-.m_d_click_cover{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* background-color: aqua; */
-}

@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>포트 폴리오</title>
+    
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/ov.css" />
     <link rel="stylesheet" href="css/first-window.css" />
+    
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script src="js/modal.js"></script> -->
+    <script src="js/modal.js"></script>
+    <!-- <script src="js/cookie.js"></script> -->
   </head>
   <body
-    oncontextmenu="return false"
-    ondragstart="return false"
-    onselect="return false"
-    onkeydown="return false"
     class="overhidden"
   >
     <div class="modal_wrap">
@@ -25,7 +25,8 @@
           도용방지를 위해 복사, 공유를 제한 하고 있는 점 양해 부탁드겠습니다.
         </p>
         <div class="close_wrap">
-          <button class="close_modal">닫기</button>
+          <a href="javascript:closePop()" class="close_modal">닫기</a>
+          <a href="javascript:closeToday();" class="chk_today">하루동안 보지않기</a>
         </div>
       </div>
     </div>

@@ -33,7 +33,22 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.close_modal {
+.close_wrap {
+  display: flex;
+  gap: 10px;
+}
+.close_modal{
+  width: 100%;
+  padding: 10px;
+  background-color: chartreuse;
+  color: #000000;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+.chk_today {
   width: 100%;
   padding: 10px;
   background-color: black;
@@ -42,9 +57,14 @@ body {
   font-weight: 600;
   font-size: 16px;
   border-radius: 5px;
+  text-align: center;
 }
 .close_modal:hover {
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(16, 226, 26);
+  color: rgb(0, 0, 0);
+}
+.chk_today:hover{
+  background-color: #4d4d4d;
   color: chartreuse;
 }
 .on {
@@ -55,8 +75,8 @@ body {
   color: #fff;
   text-align: right;
 }
-@media screen and (max-width:500px){
-  .modal_area{
+@media screen and (max-width: 500px) {
+  .modal_area {
     width: calc(100% - 20px);
   }
 }

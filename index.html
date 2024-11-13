@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="css/first-window.css" />
     <script src="js/main.js"></script>
   </head>
-  <body oncontextmenu="return false" ondragstart="return false" onselect="return false" onkeydown="return false">
+  <body
+    oncontextmenu="return false"
+    ondragstart="return false"
+    onselect="return false"
+    onkeydown="return false"
+    class="overhidden"
+  >
+    <div class="modal_wrap">
+      <div class="modal_area">
+        <p>
+          (사이트 포함)본 작업물은 모두 스스로 제작한 작업물임을 알립니다 또한
+          도용방지를 위해 복사, 공유를 제한 하고 있는 점 양해 부탁드겠습니다.
+        </p>
+        <div class="close_wrap">
+          <button class="close_modal">닫기</button>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="inner">
         <h1 class="header-title">Portflio</h1>
@@ -65,7 +82,7 @@
         <div class="ov">
           <div class="intro_scrolled">
             <div class="greeting">
-              <h1>반갑습니다</h1>
+              <!-- <h1>반갑습니다</h1> -->
             </div>
             <div class="about_me"></div>
           </div>

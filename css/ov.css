@@ -6,7 +6,7 @@ body {
   overflow: hidden;
 }
 .modal_wrap {
-  position: absolute;
+  position: fixed;
   background-color: #00000057;
   z-index: 999;
   width: 100%;
@@ -54,4 +54,9 @@ body {
 .ov > .intro_scrolled > .greeting {
   color: #fff;
   text-align: right;
+}
+@media screen and (max-width:500px){
+  .modal_area{
+    width: calc(100% - 20px);
+  }
 }

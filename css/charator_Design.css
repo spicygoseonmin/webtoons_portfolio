@@ -18,6 +18,19 @@
 .charator-cloth > ul > li > div > img,
 .inger > ul > li > div > img {
   width: 100%;
+  display: block;
+  position: relative;
+}
+.inger > ul {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ccc;
+}
+.inger > h2 {
+  margin-top: 120px;
+}
+.inger > p {
+  margin-bottom: 30px;
 }
 /* .charator > .wrapping {
   width: 100%;
